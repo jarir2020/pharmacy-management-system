@@ -1,7 +1,13 @@
 /vendor/
-/writable/
+/writable/cache/*
+/writable/logs/*
+/writable/session/*
+/writable/debugbar/*
+!writable/.gitkeep
 /.env
 /public/assets/
+/build/
+/.phpunit.result.cache
 *.log
 .idea/
 .vscode/
