@@ -619,17 +619,6 @@
                     </li>
                   <?php }?>
                   <!-- setting menu end -->
-   <?php  if(session('isAdmin') == 1){?>               
-  <li class="<?php echo (($segment_2=="autoupdate")?"mm-active":'') ?>">
-     <a class="has-arrow material-ripple" href="#">
-        <i class="fab fa-autoprefixer mr-2"></i> <?php echo lan('autoupdate')?> </a>
-  <ul class="nav-second-level <?php echo (($segment_3=="autoupdate")?"mm-collapse mm-show":'') ?> ">
-    <li  class="<?php echo (($segment_3=="autoupdate")?"mm-active":'') ?>">
-    <a href="<?php echo base_url('autoupdate/autoupdate')?>"> <?php echo lan('autoupdate')?></a>
-  </li>
-      </ul>
-  </li>
-<?php }?>
                   </ul>
               </nav>
           </div><!-- sidebar-body -->
