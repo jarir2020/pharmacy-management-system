@@ -1,0 +1,7 @@
+/vendor/
+/writable/
+/.env
+/public/assets/
+*.log
+.idea/
+.vscode/
