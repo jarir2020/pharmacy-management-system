@@ -60,5 +60,33 @@
     <script src="<?php echo base_url()?>/assets/dist/js/pages/icheck.active.js"></script>
     <script src="<?php echo base_url()?>/assets/dist/js/pages/custom.js"></script>
 
+    <script>
+    (function(){
+      var toggle = document.getElementById('themeToggle');
+      var icon = document.getElementById('themeIcon');
+      if(!toggle || !icon) return;
+
+      function updateIcon(theme) {
+        if(theme === 'dark') {
+          icon.className = 'fas fa-sun';
+        } else {
+          icon.className = 'fas fa-moon';
+        }
+      }
+
+      // Set initial icon
+      var current = document.documentElement.getAttribute('data-theme') || 'light';
+      updateIcon(current);
+
+      toggle.addEventListener('click', function() {
+        var current = document.documentElement.getAttribute('data-theme');
+        var next = current === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+        updateIcon(next);
+      });
+    })();
+    </script>
+
     </body>
 </html>

@@ -65,11 +65,12 @@
            <link href="<?php echo base_url()?>/assets/plugins/vakata-jstree/dist/themes/default/style.min.css" rel="stylesheet">
            
         <link href="<?php echo base_url()?>/assets/dist/css/print.css" rel="stylesheet">  
-        <link href="<?php echo base_url()?>/assets/dist/css/custom.css" rel="stylesheet">  
-        <?php 
+        <link href="<?php echo base_url()?>/assets/dist/css/custom.css" rel="stylesheet">
+        <link href="<?php echo base_url()?>/assets/dist/css/dark-mode.css" rel="stylesheet">
+        <?php
         if(!empty($dynamic_color) && $dynamic_color->active_status==1){
              echo view('template/style.php');
         }
-    ?> 
+    ?>
        <script src="<?php echo base_url()?>/assets/plugins/jQuery/jquery.min.js"></script>
        

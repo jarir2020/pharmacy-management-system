@@ -20,6 +20,11 @@
                         </div>
                         <div class="navbar-icon d-flex">
                             <ul class="navbar-nav flex-row align-items-center">
+                              <li class="nav-item">
+                                <button type="button" class="theme-toggle nav-link" id="themeToggle" title="Toggle Dark Mode">
+                                  <i class="fas fa-moon" id="themeIcon"></i>
+                                </button>
+                              </li>
                         <?php if($max_version > $current_version && $settings_info->update_notification == 1){?>
                             <?php  if(session('isAdmin') == 1){?> 
                 <li> <blink><a href="<?php echo base_url('autoupdate/autoupdate')?>" class="text-black  btn-warning update-btn"> <?php echo $max_version.' Version Available'; ?></a></blink>
