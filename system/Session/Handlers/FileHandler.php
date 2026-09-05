@@ -346,7 +346,8 @@ class FileHandler extends BaseHandler implements \SessionHandlerInterface
 	 *
 	 * @return boolean
 	 */
-	public function gc($maxlifetime): bool
+	#[ReturnTypeWillChange]
+	public function gc($maxlifetime)
 	{
 		if (! is_dir($this->savePath) || ($directory = opendir($this->savePath)) === false)
 		{

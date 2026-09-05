@@ -312,7 +312,8 @@ class MemcachedHandler extends BaseHandler implements \SessionHandlerInterface
 	 *
 	 * @return boolean
 	 */
-	public function gc($maxlifetime): bool
+	#[ReturnTypeWillChange]
+	public function gc($maxlifetime)
 	{
 		// Not necessary, Memcached takes care of that.
 		return true;

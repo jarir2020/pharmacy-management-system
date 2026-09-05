@@ -330,7 +330,8 @@ class RedisHandler extends BaseHandler implements \SessionHandlerInterface
 	 * @param  integer $maxlifetime Maximum lifetime of sessions
 	 * @return boolean
 	 */
-	public function gc($maxlifetime): bool
+	#[ReturnTypeWillChange]
+	public function gc($maxlifetime)
 	{
 		// Not necessary, Redis takes care of that.
 		return true;

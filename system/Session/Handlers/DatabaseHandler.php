@@ -345,7 +345,8 @@ class DatabaseHandler extends BaseHandler implements \SessionHandlerInterface
 	 *
 	 * @return boolean
 	 */
-	public function gc($maxlifetime): bool
+	#[ReturnTypeWillChange]
+	public function gc($maxlifetime)
 	{
 		return ($this->db->table($this->table)->delete('timestamp < ' . (time() - $maxlifetime))) ? true : $this->fail();
 	}

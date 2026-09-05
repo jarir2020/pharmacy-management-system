@@ -40,7 +40,7 @@
                     <!-- /.End of page wrapper -->
                     <footer class="footer text-center">
                         <div class="container">
-                            <div class="fText">Developed by <a target="_blank" href="https://www.bdtask.com/">bdtask</a></div>
+                            <div class="fText">Developed by <a target="_blank" href="https://nextstagesoftware.com/">bdtask</a></div>
                         </div>
                     </footer>
                     <!-- /.End of footer -->

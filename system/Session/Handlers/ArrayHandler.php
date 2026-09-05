@@ -141,7 +141,8 @@ class ArrayHandler extends BaseHandler implements \SessionHandlerInterface
 	 *
 	 * @return boolean
 	 */
-	public function gc($maxlifetime): bool
+	#[\ReturnTypeWillChange]
+	public function gc($maxlifetime)
 	{
 		return true;
 	}

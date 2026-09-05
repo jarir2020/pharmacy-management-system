@@ -1,0 +1,153 @@
+Auth Model
+ [x] Model instantiation
+ [x] Get users
+ [x] Check user with valid credentials
+ [x] User permission admin
+ [x] User permission
+ [x] Setting data
+
+Bank Model
+ [x] Find all
+ [x] Headcode
+
+Category Model
+ [x] Find all
+ [x] Save category
+ [x] Category exists
+
+Config
+ [x] App config
+ [x] Database config
+ [x] Modules config
+ [x] Autoload config
+ [x] Routes config
+ [x] Exceptions config
+ [x] Cache config
+ [x] Email config
+ [x] Logger config
+
+Currency Model
+ [x] Find all
+ [x] Currency exists
+
+Customer Model
+ [x] Find all
+ [x] Customer list
+
+Dashboard Model
+ [x] Total customer
+ [x] Total medicine
+ [x] Pie total sale amount
+ [x] Pie total purchase amount
+ [x] Pie total service amount
+ [x] Pie total salary amount
+ [x] Pie total expense amount
+ [x] Datewise total sale
+ [x] Datewise total purchase
+
+Database Config
+ [x] Database connection
+ [x] Database name
+ [x] User table exists
+ [x] Product table exists
+ [x] Invoice table exists
+ [x] Purchase table exists
+ [x] Customer table exists
+ [x] Manufacturer table exists
+ [x] Category table exists
+ [x] Employee table exists
+ [x] Bank table exists
+ [x] Setting table exists
+ [x] Currency table exists
+ [x] Tax table exists
+ [x] Role table exists
+ [x] Account table exists
+ [x] User count
+ [x] Setting count
+
+Designation Model
+ [x] Find all
+ [x] Save designation
+
+Employee Model
+ [x] Find all
+ [x] Designation list
+
+Leaf Model
+ [x] Find all
+ [x] Save leaf
+
+Manufacturer Model
+ [x] Find all
+ [x] Manufacturer list
+ [x] Count all
+
+Medicine Model
+ [x] Find all
+ [x] Category list
+ [x] Unit list
+ [x] Type list
+ [x] Manufacturer list
+ [x] Tax fields
+ [x] Leaf setting list
+
+Permission Lib
+ [x] Instantiation
+
+Permission Model
+ [x] Permission list
+ [x] Role list
+ [x] User count
+ [x] User
+ [x] Module
+ [x] Module list
+
+Routes
+ [x] Root route
+ [x] Login route
+ [x] Logout route
+ [x] Recovery mail route
+ [x] Recovery form route
+ [x] Change recovery route
+ [x] Default controller is dashboard
+ [x] Default method is index
+ [x] Auto route enabled
+
+Search Model
+ [x] Medicine search
+ [x] Medicine search empty
+ [x] Invoice search
+ [x] Purchase search
+
+Setting Model
+ [x] Language list
+ [x] Settings data
+ [x] Currency list
+
+Tax Model
+ [x] Tax setting info
+ [x] View taxsetup
+
+Template Lib
+ [x] Instantiation
+
+Type Model
+ [x] Find all
+ [x] Type exists
+ [x] Save type
+
+Unit Model
+ [x] Find all
+ [x] Unit exists
+ [x] Save unit
+
+User Model
+ [x] Find all
+ [x] Singledata
+ [x] Get company info
+ [x] Save user
+ [x] Check email
+ [x] Delete user
+ [x] Token set
+ [x] Check token
+

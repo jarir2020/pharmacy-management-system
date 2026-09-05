@@ -61,12 +61,12 @@ class Database extends \CodeIgniter\Database\Config
      */
     public $tests = [
         'DSN'      => '',
-        'hostname' => '127.0.0.1',
-        'username' => '',
-        'password' => '',
-        'database' => ':memory:',
-        'DBDriver' => 'SQLite3',
-        'DBPrefix' => 'db_',  // Needed to ensure we're working correctly with prefixes live. DO NOT REMOVE FOR CI DEVS
+        'hostname' => 'localhost',
+        'username' => 'root',
+        'password' => 'root',
+        'database' => 'pharmacy_db',
+        'DBDriver' => 'MySQLi',
+        'DBPrefix' => '',
         'pConnect' => false,
         'DBDebug'  => (ENVIRONMENT !== 'production'),
         'cacheOn'  => false,

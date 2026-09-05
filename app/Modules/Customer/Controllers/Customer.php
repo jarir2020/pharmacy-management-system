@@ -3,9 +3,9 @@ class Customer extends BaseController
 {
     #------------------------------------    
     # Author: Bdtask Ltd
-    # Author link: https://www.bdtask.com/
+    # Author link: https://nextstagesoftware.com/
     # Dynamic style php file
-    # Developed by :Isahaq
+    # Developed by :Jarir Ahmed
     #------------------------------------    
 
     public function index()
