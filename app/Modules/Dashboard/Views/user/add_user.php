@@ -15,7 +15,7 @@
             </div>
         </div>
                                  <div class="card-body">
-                    <?php echo form_open_multipart("user/add_user") ?>
+                    <?php echo form_open_multipart("user/add_user/".$user->id) ?>
                     
                       <?php echo form_hidden('id',$user->id) ?>                   
                     <div class="form-group row">
