@@ -1,158 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="app" tests="107" assertions="115" errors="0" warnings="0" failures="0" skipped="0" time="0.212105">
-    <testsuite name="AuthModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/AuthModelTest.php" tests="6" assertions="7" errors="0" warnings="0" failures="0" skipped="0" time="0.026587">
-      <testcase name="testModelInstantiation" class="AuthModelTest" classname="AuthModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/AuthModelTest.php" line="15" assertions="1" time="0.012105"/>
-      <testcase name="testGetUsers" class="AuthModelTest" classname="AuthModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/AuthModelTest.php" line="20" assertions="2" time="0.005617"/>
-      <testcase name="testCheckUserWithValidCredentials" class="AuthModelTest" classname="AuthModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/AuthModelTest.php" line="27" assertions="1" time="0.001483"/>
-      <testcase name="testUserPermissionAdmin" class="AuthModelTest" classname="AuthModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/AuthModelTest.php" line="37" assertions="1" time="0.001923"/>
-      <testcase name="testUserPermission" class="AuthModelTest" classname="AuthModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/AuthModelTest.php" line="43" assertions="1" time="0.004425"/>
-      <testcase name="testSettingData" class="AuthModelTest" classname="AuthModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/AuthModelTest.php" line="49" assertions="1" time="0.001034"/>
+  <testsuite name="app" tests="107" assertions="115" errors="0" warnings="0" failures="0" skipped="0" time="0.202989">
+    <testsuite name="AuthModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/AuthModelTest.php" tests="6" assertions="7" errors="0" warnings="0" failures="0" skipped="0" time="0.034711">
+      <testcase name="testModelInstantiation" class="AuthModelTest" classname="AuthModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/AuthModelTest.php" line="15" assertions="1" time="0.016620"/>
+      <testcase name="testGetUsers" class="AuthModelTest" classname="AuthModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/AuthModelTest.php" line="20" assertions="2" time="0.009155"/>
+      <testcase name="testCheckUserWithValidCredentials" class="AuthModelTest" classname="AuthModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/AuthModelTest.php" line="27" assertions="1" time="0.001818"/>
+      <testcase name="testUserPermissionAdmin" class="AuthModelTest" classname="AuthModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/AuthModelTest.php" line="37" assertions="1" time="0.003431"/>
+      <testcase name="testUserPermission" class="AuthModelTest" classname="AuthModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/AuthModelTest.php" line="43" assertions="1" time="0.002835"/>
+      <testcase name="testSettingData" class="AuthModelTest" classname="AuthModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/AuthModelTest.php" line="49" assertions="1" time="0.000852"/>
     </testsuite>
-    <testsuite name="BankModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/BankModelTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.004260">
-      <testcase name="testFindAll" class="BankModelTest" classname="BankModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/BankModelTest.php" line="15" assertions="1" time="0.002652"/>
-      <testcase name="testHeadcode" class="BankModelTest" classname="BankModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/BankModelTest.php" line="21" assertions="1" time="0.001608"/>
+    <testsuite name="BankModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/BankModelTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.003627">
+      <testcase name="testFindAll" class="BankModelTest" classname="BankModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/BankModelTest.php" line="15" assertions="1" time="0.002390"/>
+      <testcase name="testHeadcode" class="BankModelTest" classname="BankModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/BankModelTest.php" line="21" assertions="1" time="0.001237"/>
     </testsuite>
-    <testsuite name="CategoryModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/CategoryModelTest.php" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.005978">
-      <testcase name="testFindAll" class="CategoryModelTest" classname="CategoryModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/CategoryModelTest.php" line="15" assertions="1" time="0.001297"/>
-      <testcase name="testSaveCategory" class="CategoryModelTest" classname="CategoryModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/CategoryModelTest.php" line="21" assertions="1" time="0.003801"/>
-      <testcase name="testCategoryExists" class="CategoryModelTest" classname="CategoryModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/CategoryModelTest.php" line="30" assertions="1" time="0.000880"/>
+    <testsuite name="CategoryModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/CategoryModelTest.php" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.004853">
+      <testcase name="testFindAll" class="CategoryModelTest" classname="CategoryModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/CategoryModelTest.php" line="15" assertions="1" time="0.001049"/>
+      <testcase name="testSaveCategory" class="CategoryModelTest" classname="CategoryModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/CategoryModelTest.php" line="21" assertions="1" time="0.003000"/>
+      <testcase name="testCategoryExists" class="CategoryModelTest" classname="CategoryModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/CategoryModelTest.php" line="30" assertions="1" time="0.000804"/>
     </testsuite>
-    <testsuite name="ConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ConfigTest.php" tests="9" assertions="15" errors="0" warnings="0" failures="0" skipped="0" time="0.004471">
-      <testcase name="testAppConfig" class="ConfigTest" classname="ConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ConfigTest.php" line="7" assertions="1" time="0.000477"/>
-      <testcase name="testDatabaseConfig" class="ConfigTest" classname="ConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ConfigTest.php" line="13" assertions="4" time="0.000596"/>
-      <testcase name="testModulesConfig" class="ConfigTest" classname="ConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ConfigTest.php" line="22" assertions="1" time="0.000450"/>
-      <testcase name="testAutoloadConfig" class="ConfigTest" classname="ConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ConfigTest.php" line="28" assertions="2" time="0.000502"/>
-      <testcase name="testRoutesConfig" class="ConfigTest" classname="ConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ConfigTest.php" line="35" assertions="3" time="0.000414"/>
-      <testcase name="testExceptionsConfig" class="ConfigTest" classname="ConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ConfigTest.php" line="43" assertions="1" time="0.000457"/>
-      <testcase name="testCacheConfig" class="ConfigTest" classname="ConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ConfigTest.php" line="49" assertions="1" time="0.000503"/>
-      <testcase name="testEmailConfig" class="ConfigTest" classname="ConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ConfigTest.php" line="55" assertions="1" time="0.000467"/>
-      <testcase name="testLoggerConfig" class="ConfigTest" classname="ConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ConfigTest.php" line="61" assertions="1" time="0.000605"/>
+    <testsuite name="ConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ConfigTest.php" tests="9" assertions="15" errors="0" warnings="0" failures="0" skipped="0" time="0.005668">
+      <testcase name="testAppConfig" class="ConfigTest" classname="ConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ConfigTest.php" line="7" assertions="1" time="0.000519"/>
+      <testcase name="testDatabaseConfig" class="ConfigTest" classname="ConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ConfigTest.php" line="13" assertions="4" time="0.000960"/>
+      <testcase name="testModulesConfig" class="ConfigTest" classname="ConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ConfigTest.php" line="22" assertions="1" time="0.000720"/>
+      <testcase name="testAutoloadConfig" class="ConfigTest" classname="ConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ConfigTest.php" line="28" assertions="2" time="0.000781"/>
+      <testcase name="testRoutesConfig" class="ConfigTest" classname="ConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ConfigTest.php" line="35" assertions="3" time="0.000652"/>
+      <testcase name="testExceptionsConfig" class="ConfigTest" classname="ConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ConfigTest.php" line="43" assertions="1" time="0.000476"/>
+      <testcase name="testCacheConfig" class="ConfigTest" classname="ConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ConfigTest.php" line="49" assertions="1" time="0.000552"/>
+      <testcase name="testEmailConfig" class="ConfigTest" classname="ConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ConfigTest.php" line="55" assertions="1" time="0.000446"/>
+      <testcase name="testLoggerConfig" class="ConfigTest" classname="ConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ConfigTest.php" line="61" assertions="1" time="0.000562"/>
     </testsuite>
-    <testsuite name="CurrencyModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/CurrencyModelTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.003264">
-      <testcase name="testFindAll" class="CurrencyModelTest" classname="CurrencyModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/CurrencyModelTest.php" line="15" assertions="1" time="0.001794"/>
-      <testcase name="testCurrencyExists" class="CurrencyModelTest" classname="CurrencyModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/CurrencyModelTest.php" line="21" assertions="1" time="0.001470"/>
+    <testsuite name="CurrencyModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/CurrencyModelTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.002605">
+      <testcase name="testFindAll" class="CurrencyModelTest" classname="CurrencyModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/CurrencyModelTest.php" line="15" assertions="1" time="0.001457"/>
+      <testcase name="testCurrencyExists" class="CurrencyModelTest" classname="CurrencyModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/CurrencyModelTest.php" line="21" assertions="1" time="0.001148"/>
     </testsuite>
-    <testsuite name="CustomerModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/CustomerModelTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.004527">
-      <testcase name="testFindAll" class="CustomerModelTest" classname="CustomerModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/CustomerModelTest.php" line="15" assertions="1" time="0.002946"/>
-      <testcase name="testCustomerList" class="CustomerModelTest" classname="CustomerModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/CustomerModelTest.php" line="21" assertions="1" time="0.001581"/>
+    <testsuite name="CustomerModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/CustomerModelTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.003455">
+      <testcase name="testFindAll" class="CustomerModelTest" classname="CustomerModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/CustomerModelTest.php" line="15" assertions="1" time="0.002187"/>
+      <testcase name="testCustomerList" class="CustomerModelTest" classname="CustomerModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/CustomerModelTest.php" line="21" assertions="1" time="0.001268"/>
     </testsuite>
-    <testsuite name="DashboardModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DashboardModelTest.php" tests="9" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.016650">
-      <testcase name="testTotalCustomer" class="DashboardModelTest" classname="DashboardModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DashboardModelTest.php" line="15" assertions="1" time="0.001816"/>
-      <testcase name="testTotalMedicine" class="DashboardModelTest" classname="DashboardModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DashboardModelTest.php" line="21" assertions="1" time="0.001224"/>
-      <testcase name="testPieTotalSaleAmount" class="DashboardModelTest" classname="DashboardModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DashboardModelTest.php" line="27" assertions="1" time="0.001556"/>
-      <testcase name="testPieTotalPurchaseAmount" class="DashboardModelTest" classname="DashboardModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DashboardModelTest.php" line="33" assertions="1" time="0.002066"/>
-      <testcase name="testPieTotalServiceAmount" class="DashboardModelTest" classname="DashboardModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DashboardModelTest.php" line="39" assertions="1" time="0.001622"/>
-      <testcase name="testPieTotalSalaryAmount" class="DashboardModelTest" classname="DashboardModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DashboardModelTest.php" line="45" assertions="1" time="0.001848"/>
-      <testcase name="testPieTotalExpenseAmount" class="DashboardModelTest" classname="DashboardModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DashboardModelTest.php" line="51" assertions="1" time="0.003565"/>
-      <testcase name="testDatewiseTotalSale" class="DashboardModelTest" classname="DashboardModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DashboardModelTest.php" line="57" assertions="1" time="0.001497"/>
-      <testcase name="testDatewiseTotalPurchase" class="DashboardModelTest" classname="DashboardModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DashboardModelTest.php" line="63" assertions="1" time="0.001456"/>
+    <testsuite name="DashboardModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DashboardModelTest.php" tests="9" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.011674">
+      <testcase name="testTotalCustomer" class="DashboardModelTest" classname="DashboardModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DashboardModelTest.php" line="15" assertions="1" time="0.001311"/>
+      <testcase name="testTotalMedicine" class="DashboardModelTest" classname="DashboardModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DashboardModelTest.php" line="21" assertions="1" time="0.000920"/>
+      <testcase name="testPieTotalSaleAmount" class="DashboardModelTest" classname="DashboardModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DashboardModelTest.php" line="27" assertions="1" time="0.001135"/>
+      <testcase name="testPieTotalPurchaseAmount" class="DashboardModelTest" classname="DashboardModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DashboardModelTest.php" line="33" assertions="1" time="0.001681"/>
+      <testcase name="testPieTotalServiceAmount" class="DashboardModelTest" classname="DashboardModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DashboardModelTest.php" line="39" assertions="1" time="0.001388"/>
+      <testcase name="testPieTotalSalaryAmount" class="DashboardModelTest" classname="DashboardModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DashboardModelTest.php" line="45" assertions="1" time="0.001219"/>
+      <testcase name="testPieTotalExpenseAmount" class="DashboardModelTest" classname="DashboardModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DashboardModelTest.php" line="51" assertions="1" time="0.002177"/>
+      <testcase name="testDatewiseTotalSale" class="DashboardModelTest" classname="DashboardModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DashboardModelTest.php" line="57" assertions="1" time="0.000954"/>
+      <testcase name="testDatewiseTotalPurchase" class="DashboardModelTest" classname="DashboardModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DashboardModelTest.php" line="63" assertions="1" time="0.000889"/>
     </testsuite>
-    <testsuite name="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" tests="18" assertions="18" errors="0" warnings="0" failures="0" skipped="0" time="0.026467">
-      <testcase name="testDatabaseConnection" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="15" assertions="1" time="0.001097"/>
-      <testcase name="testDatabaseName" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="20" assertions="1" time="0.001028"/>
-      <testcase name="testUserTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="25" assertions="1" time="0.004788"/>
-      <testcase name="testProductTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="30" assertions="1" time="0.001594"/>
-      <testcase name="testInvoiceTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="35" assertions="1" time="0.001095"/>
-      <testcase name="testPurchaseTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="40" assertions="1" time="0.001212"/>
-      <testcase name="testCustomerTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="45" assertions="1" time="0.001118"/>
-      <testcase name="testManufacturerTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="50" assertions="1" time="0.000979"/>
-      <testcase name="testCategoryTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="55" assertions="1" time="0.001149"/>
-      <testcase name="testEmployeeTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="60" assertions="1" time="0.001106"/>
-      <testcase name="testBankTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="65" assertions="1" time="0.001131"/>
-      <testcase name="testSettingTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="70" assertions="1" time="0.001229"/>
-      <testcase name="testCurrencyTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="75" assertions="1" time="0.001205"/>
-      <testcase name="testTaxTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="80" assertions="1" time="0.001223"/>
-      <testcase name="testRoleTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="85" assertions="1" time="0.001267"/>
-      <testcase name="testAccountTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="90" assertions="1" time="0.001150"/>
-      <testcase name="testUserCount" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="95" assertions="1" time="0.002253"/>
-      <testcase name="testSettingCount" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="101" assertions="1" time="0.001842"/>
+    <testsuite name="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" tests="18" assertions="18" errors="0" warnings="0" failures="0" skipped="0" time="0.019613">
+      <testcase name="testDatabaseConnection" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="15" assertions="1" time="0.000622"/>
+      <testcase name="testDatabaseName" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="20" assertions="1" time="0.000617"/>
+      <testcase name="testUserTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="25" assertions="1" time="0.007252"/>
+      <testcase name="testProductTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="30" assertions="1" time="0.000698"/>
+      <testcase name="testInvoiceTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="35" assertions="1" time="0.000618"/>
+      <testcase name="testPurchaseTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="40" assertions="1" time="0.000564"/>
+      <testcase name="testCustomerTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="45" assertions="1" time="0.000585"/>
+      <testcase name="testManufacturerTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="50" assertions="1" time="0.000587"/>
+      <testcase name="testCategoryTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="55" assertions="1" time="0.000585"/>
+      <testcase name="testEmployeeTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="60" assertions="1" time="0.000605"/>
+      <testcase name="testBankTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="65" assertions="1" time="0.000612"/>
+      <testcase name="testSettingTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="70" assertions="1" time="0.000712"/>
+      <testcase name="testCurrencyTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="75" assertions="1" time="0.000661"/>
+      <testcase name="testTaxTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="80" assertions="1" time="0.000762"/>
+      <testcase name="testRoleTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="85" assertions="1" time="0.000700"/>
+      <testcase name="testAccountTableExists" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="90" assertions="1" time="0.000793"/>
+      <testcase name="testUserCount" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="95" assertions="1" time="0.001376"/>
+      <testcase name="testSettingCount" class="DatabaseConfigTest" classname="DatabaseConfigTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DatabaseConfigTest.php" line="101" assertions="1" time="0.001264"/>
     </testsuite>
-    <testsuite name="DesignationModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DesignationModelTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.005034">
-      <testcase name="testFindAll" class="DesignationModelTest" classname="DesignationModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DesignationModelTest.php" line="15" assertions="1" time="0.001799"/>
-      <testcase name="testSaveDesignation" class="DesignationModelTest" classname="DesignationModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DesignationModelTest.php" line="21" assertions="1" time="0.003235"/>
+    <testsuite name="DesignationModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DesignationModelTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.006439">
+      <testcase name="testFindAll" class="DesignationModelTest" classname="DesignationModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DesignationModelTest.php" line="15" assertions="1" time="0.003237"/>
+      <testcase name="testSaveDesignation" class="DesignationModelTest" classname="DesignationModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/DesignationModelTest.php" line="21" assertions="1" time="0.003202"/>
     </testsuite>
-    <testsuite name="EmployeeModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/EmployeeModelTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.003606">
-      <testcase name="testFindAll" class="EmployeeModelTest" classname="EmployeeModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/EmployeeModelTest.php" line="15" assertions="1" time="0.002029"/>
-      <testcase name="testDesignationList" class="EmployeeModelTest" classname="EmployeeModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/EmployeeModelTest.php" line="21" assertions="1" time="0.001577"/>
+    <testsuite name="EmployeeModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/EmployeeModelTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.005441">
+      <testcase name="testFindAll" class="EmployeeModelTest" classname="EmployeeModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/EmployeeModelTest.php" line="15" assertions="1" time="0.002661"/>
+      <testcase name="testDesignationList" class="EmployeeModelTest" classname="EmployeeModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/EmployeeModelTest.php" line="21" assertions="1" time="0.002780"/>
     </testsuite>
-    <testsuite name="LeafModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/LeafModelTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.005004">
-      <testcase name="testFindAll" class="LeafModelTest" classname="LeafModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/LeafModelTest.php" line="15" assertions="1" time="0.001895"/>
-      <testcase name="testSaveLeaf" class="LeafModelTest" classname="LeafModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/LeafModelTest.php" line="21" assertions="1" time="0.003109"/>
+    <testsuite name="LeafModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/LeafModelTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.006355">
+      <testcase name="testFindAll" class="LeafModelTest" classname="LeafModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/LeafModelTest.php" line="15" assertions="1" time="0.002249"/>
+      <testcase name="testSaveLeaf" class="LeafModelTest" classname="LeafModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/LeafModelTest.php" line="21" assertions="1" time="0.004106"/>
     </testsuite>
-    <testsuite name="ManufacturerModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ManufacturerModelTest.php" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.005678">
-      <testcase name="testFindAll" class="ManufacturerModelTest" classname="ManufacturerModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ManufacturerModelTest.php" line="15" assertions="1" time="0.002535"/>
-      <testcase name="testManufacturerList" class="ManufacturerModelTest" classname="ManufacturerModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ManufacturerModelTest.php" line="21" assertions="1" time="0.001622"/>
-      <testcase name="testCountAll" class="ManufacturerModelTest" classname="ManufacturerModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ManufacturerModelTest.php" line="27" assertions="1" time="0.001521"/>
+    <testsuite name="ManufacturerModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ManufacturerModelTest.php" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.005887">
+      <testcase name="testFindAll" class="ManufacturerModelTest" classname="ManufacturerModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ManufacturerModelTest.php" line="15" assertions="1" time="0.002322"/>
+      <testcase name="testManufacturerList" class="ManufacturerModelTest" classname="ManufacturerModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ManufacturerModelTest.php" line="21" assertions="1" time="0.001818"/>
+      <testcase name="testCountAll" class="ManufacturerModelTest" classname="ManufacturerModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/ManufacturerModelTest.php" line="27" assertions="1" time="0.001747"/>
     </testsuite>
-    <testsuite name="MedicineModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/MedicineModelTest.php" tests="7" assertions="7" errors="0" warnings="0" failures="0" skipped="0" time="0.015465">
-      <testcase name="testFindAll" class="MedicineModelTest" classname="MedicineModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/MedicineModelTest.php" line="15" assertions="1" time="0.001954"/>
-      <testcase name="testCategoryList" class="MedicineModelTest" classname="MedicineModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/MedicineModelTest.php" line="21" assertions="1" time="0.001653"/>
-      <testcase name="testUnitList" class="MedicineModelTest" classname="MedicineModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/MedicineModelTest.php" line="27" assertions="1" time="0.002323"/>
-      <testcase name="testTypeList" class="MedicineModelTest" classname="MedicineModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/MedicineModelTest.php" line="33" assertions="1" time="0.002016"/>
-      <testcase name="testManufacturerList" class="MedicineModelTest" classname="MedicineModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/MedicineModelTest.php" line="39" assertions="1" time="0.001926"/>
-      <testcase name="testTaxFields" class="MedicineModelTest" classname="MedicineModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/MedicineModelTest.php" line="45" assertions="1" time="0.002004"/>
-      <testcase name="testLeafSettingList" class="MedicineModelTest" classname="MedicineModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/MedicineModelTest.php" line="51" assertions="1" time="0.003589"/>
+    <testsuite name="MedicineModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/MedicineModelTest.php" tests="7" assertions="7" errors="0" warnings="0" failures="0" skipped="0" time="0.022184">
+      <testcase name="testFindAll" class="MedicineModelTest" classname="MedicineModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/MedicineModelTest.php" line="15" assertions="1" time="0.002980"/>
+      <testcase name="testCategoryList" class="MedicineModelTest" classname="MedicineModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/MedicineModelTest.php" line="21" assertions="1" time="0.003091"/>
+      <testcase name="testUnitList" class="MedicineModelTest" classname="MedicineModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/MedicineModelTest.php" line="27" assertions="1" time="0.004197"/>
+      <testcase name="testTypeList" class="MedicineModelTest" classname="MedicineModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/MedicineModelTest.php" line="33" assertions="1" time="0.003662"/>
+      <testcase name="testManufacturerList" class="MedicineModelTest" classname="MedicineModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/MedicineModelTest.php" line="39" assertions="1" time="0.003187"/>
+      <testcase name="testTaxFields" class="MedicineModelTest" classname="MedicineModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/MedicineModelTest.php" line="45" assertions="1" time="0.003248"/>
+      <testcase name="testLeafSettingList" class="MedicineModelTest" classname="MedicineModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/MedicineModelTest.php" line="51" assertions="1" time="0.001819"/>
     </testsuite>
-    <testsuite name="PermissionLibTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/PermissionLibTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001205">
-      <testcase name="testInstantiation" class="PermissionLibTest" classname="PermissionLibTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/PermissionLibTest.php" line="15" assertions="1" time="0.001205"/>
+    <testsuite name="PermissionLibTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/PermissionLibTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.000940">
+      <testcase name="testInstantiation" class="PermissionLibTest" classname="PermissionLibTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/PermissionLibTest.php" line="15" assertions="1" time="0.000940"/>
     </testsuite>
-    <testsuite name="PermissionModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/PermissionModelTest.php" tests="6" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.008529">
-      <testcase name="testPermissionList" class="PermissionModelTest" classname="PermissionModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/PermissionModelTest.php" line="15" assertions="1" time="0.001926"/>
-      <testcase name="testRoleList" class="PermissionModelTest" classname="PermissionModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/PermissionModelTest.php" line="21" assertions="1" time="0.001393"/>
-      <testcase name="testUserCount" class="PermissionModelTest" classname="PermissionModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/PermissionModelTest.php" line="27" assertions="1" time="0.001239"/>
-      <testcase name="testUser" class="PermissionModelTest" classname="PermissionModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/PermissionModelTest.php" line="33" assertions="1" time="0.001285"/>
-      <testcase name="testModule" class="PermissionModelTest" classname="PermissionModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/PermissionModelTest.php" line="39" assertions="1" time="0.001308"/>
-      <testcase name="testModuleList" class="PermissionModelTest" classname="PermissionModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/PermissionModelTest.php" line="45" assertions="1" time="0.001378"/>
+    <testsuite name="PermissionModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/PermissionModelTest.php" tests="6" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.007710">
+      <testcase name="testPermissionList" class="PermissionModelTest" classname="PermissionModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/PermissionModelTest.php" line="15" assertions="1" time="0.001808"/>
+      <testcase name="testRoleList" class="PermissionModelTest" classname="PermissionModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/PermissionModelTest.php" line="21" assertions="1" time="0.001259"/>
+      <testcase name="testUserCount" class="PermissionModelTest" classname="PermissionModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/PermissionModelTest.php" line="27" assertions="1" time="0.001155"/>
+      <testcase name="testUser" class="PermissionModelTest" classname="PermissionModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/PermissionModelTest.php" line="33" assertions="1" time="0.001223"/>
+      <testcase name="testModule" class="PermissionModelTest" classname="PermissionModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/PermissionModelTest.php" line="39" assertions="1" time="0.001152"/>
+      <testcase name="testModuleList" class="PermissionModelTest" classname="PermissionModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/PermissionModelTest.php" line="45" assertions="1" time="0.001113"/>
     </testsuite>
-    <testsuite name="RoutesTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/RoutesTest.php" tests="9" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.014339">
-      <testcase name="testRootRoute" class="RoutesTest" classname="RoutesTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/RoutesTest.php" line="18" assertions="1" time="0.001216"/>
-      <testcase name="testLoginRoute" class="RoutesTest" classname="RoutesTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/RoutesTest.php" line="24" assertions="1" time="0.001457"/>
-      <testcase name="testLogoutRoute" class="RoutesTest" classname="RoutesTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/RoutesTest.php" line="30" assertions="1" time="0.001870"/>
-      <testcase name="testRecoveryMailRoute" class="RoutesTest" classname="RoutesTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/RoutesTest.php" line="36" assertions="1" time="0.001819"/>
-      <testcase name="testRecoveryFormRoute" class="RoutesTest" classname="RoutesTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/RoutesTest.php" line="42" assertions="1" time="0.001720"/>
-      <testcase name="testChangeRecoveryRoute" class="RoutesTest" classname="RoutesTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/RoutesTest.php" line="48" assertions="1" time="0.001639"/>
-      <testcase name="testDefaultControllerIsDashboard" class="RoutesTest" classname="RoutesTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/RoutesTest.php" line="54" assertions="1" time="0.001577"/>
-      <testcase name="testDefaultMethodIsIndex" class="RoutesTest" classname="RoutesTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/RoutesTest.php" line="59" assertions="1" time="0.001527"/>
-      <testcase name="testAutoRouteEnabled" class="RoutesTest" classname="RoutesTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/RoutesTest.php" line="64" assertions="1" time="0.001514"/>
+    <testsuite name="RoutesTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/RoutesTest.php" tests="9" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.009267">
+      <testcase name="testRootRoute" class="RoutesTest" classname="RoutesTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/RoutesTest.php" line="18" assertions="1" time="0.001037"/>
+      <testcase name="testLoginRoute" class="RoutesTest" classname="RoutesTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/RoutesTest.php" line="24" assertions="1" time="0.001010"/>
+      <testcase name="testLogoutRoute" class="RoutesTest" classname="RoutesTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/RoutesTest.php" line="30" assertions="1" time="0.001127"/>
+      <testcase name="testRecoveryMailRoute" class="RoutesTest" classname="RoutesTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/RoutesTest.php" line="36" assertions="1" time="0.001377"/>
+      <testcase name="testRecoveryFormRoute" class="RoutesTest" classname="RoutesTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/RoutesTest.php" line="42" assertions="1" time="0.001056"/>
+      <testcase name="testChangeRecoveryRoute" class="RoutesTest" classname="RoutesTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/RoutesTest.php" line="48" assertions="1" time="0.000961"/>
+      <testcase name="testDefaultControllerIsDashboard" class="RoutesTest" classname="RoutesTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/RoutesTest.php" line="54" assertions="1" time="0.000909"/>
+      <testcase name="testDefaultMethodIsIndex" class="RoutesTest" classname="RoutesTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/RoutesTest.php" line="59" assertions="1" time="0.000894"/>
+      <testcase name="testAutoRouteEnabled" class="RoutesTest" classname="RoutesTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/RoutesTest.php" line="64" assertions="1" time="0.000896"/>
     </testsuite>
-    <testsuite name="SearchModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/SearchModelTest.php" tests="4" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.013491">
-      <testcase name="testMedicineSearch" class="SearchModelTest" classname="SearchModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/SearchModelTest.php" line="15" assertions="1" time="0.005572"/>
-      <testcase name="testMedicineSearchEmpty" class="SearchModelTest" classname="SearchModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/SearchModelTest.php" line="25" assertions="1" time="0.002939"/>
-      <testcase name="testInvoiceSearch" class="SearchModelTest" classname="SearchModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/SearchModelTest.php" line="35" assertions="1" time="0.002559"/>
-      <testcase name="testPurchaseSearch" class="SearchModelTest" classname="SearchModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/SearchModelTest.php" line="45" assertions="1" time="0.002421"/>
+    <testsuite name="SearchModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/SearchModelTest.php" tests="4" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.010270">
+      <testcase name="testMedicineSearch" class="SearchModelTest" classname="SearchModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/SearchModelTest.php" line="15" assertions="1" time="0.003466"/>
+      <testcase name="testMedicineSearchEmpty" class="SearchModelTest" classname="SearchModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/SearchModelTest.php" line="25" assertions="1" time="0.002204"/>
+      <testcase name="testInvoiceSearch" class="SearchModelTest" classname="SearchModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/SearchModelTest.php" line="35" assertions="1" time="0.002093"/>
+      <testcase name="testPurchaseSearch" class="SearchModelTest" classname="SearchModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/SearchModelTest.php" line="45" assertions="1" time="0.002507"/>
     </testsuite>
-    <testsuite name="SettingModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/SettingModelTest.php" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.006293">
-      <testcase name="testLanguageList" class="SettingModelTest" classname="SettingModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/SettingModelTest.php" line="15" assertions="1" time="0.003464"/>
-      <testcase name="testSettingsData" class="SettingModelTest" classname="SettingModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/SettingModelTest.php" line="21" assertions="1" time="0.001438"/>
-      <testcase name="testCurrencyList" class="SettingModelTest" classname="SettingModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/SettingModelTest.php" line="27" assertions="1" time="0.001391"/>
+    <testsuite name="SettingModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/SettingModelTest.php" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.006200">
+      <testcase name="testLanguageList" class="SettingModelTest" classname="SettingModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/SettingModelTest.php" line="15" assertions="1" time="0.003887"/>
+      <testcase name="testSettingsData" class="SettingModelTest" classname="SettingModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/SettingModelTest.php" line="21" assertions="1" time="0.001177"/>
+      <testcase name="testCurrencyList" class="SettingModelTest" classname="SettingModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/SettingModelTest.php" line="27" assertions="1" time="0.001136"/>
     </testsuite>
-    <testsuite name="TaxModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/TaxModelTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.004694">
-      <testcase name="testTaxSettingInfo" class="TaxModelTest" classname="TaxModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/TaxModelTest.php" line="15" assertions="1" time="0.002335"/>
-      <testcase name="testViewTaxsetup" class="TaxModelTest" classname="TaxModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/TaxModelTest.php" line="21" assertions="1" time="0.002359"/>
+    <testsuite name="TaxModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/TaxModelTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.004216">
+      <testcase name="testTaxSettingInfo" class="TaxModelTest" classname="TaxModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/TaxModelTest.php" line="15" assertions="1" time="0.002131"/>
+      <testcase name="testViewTaxsetup" class="TaxModelTest" classname="TaxModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/TaxModelTest.php" line="21" assertions="1" time="0.002085"/>
     </testsuite>
-    <testsuite name="TemplateLibTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/TemplateLibTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001695">
-      <testcase name="testInstantiation" class="TemplateLibTest" classname="TemplateLibTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/TemplateLibTest.php" line="15" assertions="1" time="0.001695"/>
+    <testsuite name="TemplateLibTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/TemplateLibTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001206">
+      <testcase name="testInstantiation" class="TemplateLibTest" classname="TemplateLibTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/TemplateLibTest.php" line="15" assertions="1" time="0.001206"/>
     </testsuite>
-    <testsuite name="TypeModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/TypeModelTest.php" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.008608">
-      <testcase name="testFindAll" class="TypeModelTest" classname="TypeModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/TypeModelTest.php" line="15" assertions="1" time="0.002428"/>
-      <testcase name="testTypeExists" class="TypeModelTest" classname="TypeModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/TypeModelTest.php" line="21" assertions="1" time="0.002320"/>
-      <testcase name="testSaveType" class="TypeModelTest" classname="TypeModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/TypeModelTest.php" line="27" assertions="1" time="0.003860"/>
+    <testsuite name="TypeModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/TypeModelTest.php" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.007972">
+      <testcase name="testFindAll" class="TypeModelTest" classname="TypeModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/TypeModelTest.php" line="15" assertions="1" time="0.002381"/>
+      <testcase name="testTypeExists" class="TypeModelTest" classname="TypeModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/TypeModelTest.php" line="21" assertions="1" time="0.001974"/>
+      <testcase name="testSaveType" class="TypeModelTest" classname="TypeModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/TypeModelTest.php" line="27" assertions="1" time="0.003617"/>
     </testsuite>
-    <testsuite name="UnitModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UnitModelTest.php" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.010484">
-      <testcase name="testFindAll" class="UnitModelTest" classname="UnitModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UnitModelTest.php" line="15" assertions="1" time="0.002484"/>
-      <testcase name="testUnitExists" class="UnitModelTest" classname="UnitModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UnitModelTest.php" line="21" assertions="1" time="0.002373"/>
-      <testcase name="testSaveUnit" class="UnitModelTest" classname="UnitModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UnitModelTest.php" line="27" assertions="1" time="0.005627"/>
+    <testsuite name="UnitModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UnitModelTest.php" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.008654">
+      <testcase name="testFindAll" class="UnitModelTest" classname="UnitModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UnitModelTest.php" line="15" assertions="1" time="0.002358"/>
+      <testcase name="testUnitExists" class="UnitModelTest" classname="UnitModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UnitModelTest.php" line="21" assertions="1" time="0.001916"/>
+      <testcase name="testSaveUnit" class="UnitModelTest" classname="UnitModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UnitModelTest.php" line="27" assertions="1" time="0.004380"/>
     </testsuite>
-    <testsuite name="UserModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UserModelTest.php" tests="8" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.015776">
-      <testcase name="testFindAll" class="UserModelTest" classname="UserModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UserModelTest.php" line="16" assertions="2" time="0.002105"/>
-      <testcase name="testSingledata" class="UserModelTest" classname="UserModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UserModelTest.php" line="23" assertions="1" time="0.001610"/>
-      <testcase name="testGetCompanyInfo" class="UserModelTest" classname="UserModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UserModelTest.php" line="29" assertions="1" time="0.001697"/>
-      <testcase name="testSaveUser" class="UserModelTest" classname="UserModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UserModelTest.php" line="35" assertions="1" time="0.003484"/>
-      <testcase name="testCheckEmail" class="UserModelTest" classname="UserModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UserModelTest.php" line="51" assertions="1" time="0.001819"/>
-      <testcase name="testDeleteUser" class="UserModelTest" classname="UserModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UserModelTest.php" line="58" assertions="1" time="0.001658"/>
-      <testcase name="testTokenSet" class="UserModelTest" classname="UserModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UserModelTest.php" line="64" assertions="1" time="0.001686"/>
-      <testcase name="testCheckToken" class="UserModelTest" classname="UserModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UserModelTest.php" line="70" assertions="1" time="0.001717"/>
+    <testsuite name="UserModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UserModelTest.php" tests="8" assertions="9" errors="0" warnings="0" failures="0" skipped="0" time="0.014041">
+      <testcase name="testFindAll" class="UserModelTest" classname="UserModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UserModelTest.php" line="16" assertions="2" time="0.001753"/>
+      <testcase name="testSingledata" class="UserModelTest" classname="UserModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UserModelTest.php" line="23" assertions="1" time="0.001222"/>
+      <testcase name="testGetCompanyInfo" class="UserModelTest" classname="UserModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UserModelTest.php" line="29" assertions="1" time="0.001619"/>
+      <testcase name="testSaveUser" class="UserModelTest" classname="UserModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UserModelTest.php" line="35" assertions="1" time="0.003384"/>
+      <testcase name="testCheckEmail" class="UserModelTest" classname="UserModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UserModelTest.php" line="51" assertions="1" time="0.001444"/>
+      <testcase name="testDeleteUser" class="UserModelTest" classname="UserModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UserModelTest.php" line="58" assertions="1" time="0.001359"/>
+      <testcase name="testTokenSet" class="UserModelTest" classname="UserModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UserModelTest.php" line="64" assertions="1" time="0.001461"/>
+      <testcase name="testCheckToken" class="UserModelTest" classname="UserModelTest" file="/home/jarir-ahmed/Documents/pharmacy/tests/unit/UserModelTest.php" line="70" assertions="1" time="0.001799"/>
     </testsuite>
   </testsuite>
 </testsuites>
