@@ -41,7 +41,8 @@ class User extends BaseController
 
         if($this->validation->withRequest($this->request)->run() && $this->request->getFile('image')){
 
-            $image_path = $this->imageupload->upload_image($this->request->getFile('image'), 'assets/dist/img/user/', $this->request->getVar('image'), 60, 70);
+            $image_path = $this->imageupload->upload_image($this->request->getFile('image'), FCPATH . 'assets/dist/img/user/', $this->request->getVar('image'), 60, 70);
+            $image_path = str_replace(FCPATH, '/', $image_path);
         } else {
             $image_path = "";
         }
@@ -54,7 +55,7 @@ class User extends BaseController
             'email'       => $this->request->getVar('email', FILTER_SANITIZE_STRING),
             'password'    => (!empty($this->request->getVar('password', FILTER_SANITIZE_STRING))?md5($this->request->getVar('password')):$old_password),
             'about'       => $this->request->getVar('about', FILTER_SANITIZE_STRING),
-            'image'       => (($image_path !='/')?$image_path:$old_image),
+            'image'       => (!empty($image_path) && $image_path != '/') ? $image_path : $old_image,
             'last_login'  => null,
             'last_logout' => null,
             'ip_address'  => null,
